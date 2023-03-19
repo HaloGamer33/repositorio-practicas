@@ -1,6 +1,6 @@
 # University Practice - HaloGamer33
 
-<img src="https://i.imgur.com/RIcqt34.jpg" width="200" height="200">
+<img src="https://i.imgur.com/RIcqt34.jpg" width="500" height="500">
 
 **`Software Engineer Student - Independent Digital Craftsman`**
 
