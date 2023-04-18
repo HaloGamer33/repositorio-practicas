@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica16</title>
+</head>
+<body>
+    <h1 id="titulo">Este es un texto</h1>
+    <p id="texto">Este es un parrafo</p>
+
+    <ul id="colores">
+        <li>Rojo</li>
+        <li>Verde</li>
+        <li>Azul</li>
+    </ul>
+    
+    <script>
+        var titulo;
+        titulo = document.getElementById('titulo');
+        titulo.innerHTML = 'Feliz regreso de vacaciones';
+
+        var texto;
+        texto = document.getElementById('texto');
+        texto.style.fontSize = '30px';
+        texto.style.backgroundColor = 'cyan';
+
+        var colores;
+        colores = document.getElementById('colores')
+        colores.style.color = 'pink';
+        colores.style.fontSize = '50px';
+        colores.style.display = 'none';
+        colores.style.display = 'block';
+
+        // Notación camel case
+        function cambiaColor() {
+            console.log('Si entra a la función', 5 + 10);
+            colores.stye.color = '#ff0000'
+        }
+
+        cambiaColor
+
+        document.write('El fontSize del elemento \'titulo\' es de: ');
+        document.write(texto.style.fontSize);
+        // Quick comment shortcut: CTRL + K + C
+        // window.alert("Esta es una alerta :o");
+
+        var cadena = 'This console does not appear to be a natural formation :o'
+        console.log('|| Zona supersecreta para desarrolladores ||')
+        console.log(cadena)
+        console.log('Oh, I know what the ladies like.')
+
+        console.log('|| Welcome to my calculator ||')
+
+        let a, b, c;
+        a = 2;
+        b = 2;
+        c = a + b;
+        console.log(a, '+', b, '=', c, 'Amazing information :o');
+
+        var radio = 10;
+        const PI = 3.14159265359;
+
+        function calcularArea() {
+            let areaTemporal = PI * radio * radio;
+            return areaTemporal;
+        }
+
+        console.log('El area de un circulo con radio de 10 es igual a', calcularArea())
+
+        let numero = 10.50;
+        var numeroNuevo = 10;
+
+        let soyCadena1 = 'jejeje';
+        let soyCadena2 = 'jejeje';
+        let soyCadena3 = 'jejeje';
+
+        let multiplica = numero * numeroNuevo;
+        console.log(multiplica);
+
+        // HOSTING, podemos usar el mismo nombre de variable dos veces sin error, that is a no-no :c
+        var auto = 'BMW';
+        var auto;
+        console.log(auto);
+        
+
+        let variableLocal = 10;
+        {
+            let variableLocal = 2;
+            console.log('Dentro el valor es: ' + variableLocal);
+        }
+        console.log('Afuera el valor es: ' + variableLocal);
+
+    </script>
+</body>
+</html>
