@@ -6,7 +6,7 @@
 
 My name is Halo, a software engineer student who tries to combine his knowledge in mathematical sciences with a creative approach that i try to polish each time that i use it, there is always something else to learn, Ad Astra.
 
-## Link to this repo github pages: https://halogamer33.github.io/repositorio-practicas/
+Link to this repo github pages: https://halogamer33.github.io/repositorio-practicas/
 
 ## Examples of my work:
 - https://halogamer33.github.io/repositorio-practicas/menu/
