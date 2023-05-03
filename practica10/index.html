@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>practica10</title>
+    <style>
+        h1 {
+            font-size: 10em;
+        }
+
+        #descripcion {
+            background-color: #394867;
+            color: #9BA4B5;
+        }
+
+        #menu {
+            float: none;
+            width: auto;
+        }
+
+        #opciones {
+            margin: 0px;
+            padding: 0px;   
+        }
+
+        .opcionmenu {
+            color: #9BA4B5;
+            background-color: #394867;
+            border: 1px solid black;
+            list-style-type: none;
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        @media screen and (min-width: 480px) {
+            #menu {
+                width: 200px;
+                float: left;
+            }
+        }
+    </style>
 </head>
-<body>
+<body style="background-color: #F1F6F9;">
     <div class="contenido"></div>
     <div id="menu">
         <ul id="opciones">
